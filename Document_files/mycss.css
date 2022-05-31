@@ -1,0 +1,14 @@
+
+body{
+    overflow-x: hidden;
+}
+.bg-dark{
+    background-color: #111 !important;
+}
+.form-control{
+    height: 50px;
+}
+.hemen,.hemen button{
+    height: 50px !important;
+}
+

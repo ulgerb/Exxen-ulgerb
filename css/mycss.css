@@ -1,0 +1,64 @@
+
+*{
+    box-sizing: border-box;
+}
+@media screen {
+    body{
+        overflow-x: hidden !important;
+        padding: 0px 0px 0px 0px !important;
+        margin: 0px 0px 0px 0px !important;
+    }
+}
+body{
+    
+    overflow-x: hidden !important; 
+}
+
+.page_main{
+    
+    overflow-x: hidden;
+}
+.bg-dark{
+    background-color: #111 !important;
+}
+.form-control{
+    height: 50px;
+}
+.hemen,.hemen button{
+    height: 50px !important;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.in_reel{
+    transition: .5s;
+}
+.in_reel:hover {
+    transform: scale(1.06,1.06) ;
+}
+.content_info{
+    margin: 0px 24px 0px 24px;
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    position: absolute;
+    top: 15%;
+}
+.exensport .btn:focus{
+    border: none;
+    box-shadow: none;
+}
+.in_reel:hover .content_info {
+    display: flex;
+}
+.content_button {
+    background: #ffc107;
+    transition: 0.1s;
+}
+.content_button:hover{
+    transform: scale(1.1, 1.1) translateY(-3px);
+    background-color: #ffc107;
+    
+}
+
+
